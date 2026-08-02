@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import documentService from "../../services/documentService";
 import Spinner from "../../components/common/Spinner";
 import Button from "../../components/common/Button";
-import DocumentCard from "../../components/documents/documentCard";
+import DocumentCard from "../../components/documents/DocumentCard";
 
 const DocumentListPage = () => {
 
