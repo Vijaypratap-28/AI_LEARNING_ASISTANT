@@ -1,0 +1,10 @@
+{
+  "name": "ai-learning-assistant-mern",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix Backend && npm install --prefix Frontend",
+    "build:frontend": "npm run build --prefix Frontend",
+    "start:backend": "npm start --prefix Backend",
+    "dev:frontend": "npm run dev --prefix Frontend"
+  }
+}

@@ -62,6 +62,19 @@ npm run dev
 
 Then open the local Vite URL shown in the terminal.
 
+## Root Installation
+
+From the project root, you can install both sides with:
+
+```bash
+npm run install:all
+```
+
+## Continuous Integration
+
+A GitHub Actions workflow is included at `.github/workflows/ci.yml`.
+It installs backend and frontend dependencies and builds the frontend on every push or pull request to `main`.
+
 ## Notes
 
 - Uploaded PDFs are stored in `Backend/uploads/` and are excluded from git via `.gitignore`
